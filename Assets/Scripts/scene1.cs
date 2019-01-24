@@ -13,11 +13,11 @@ public class scene1 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
- if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("return")) //マウス左クリック、エンター(リターン)キー
-        {
-            SceneManager.LoadScene("demo");//demoシーンをロード
-			//build settings 遷移したいシーンをお願いします。
-}
+		if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("return")) //マウス左クリック、エンター(リターン)キー
+				{
+					SceneManager.LoadScene("Stage");//demoシーンをロード
+					//build settings 遷移したいシーンをお願いします。
+		}
 
 	}
 }

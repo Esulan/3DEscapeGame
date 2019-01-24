@@ -39,7 +39,9 @@ public class ButtonPanelScript : MonoBehaviour {
 				this.GetComponent<TextMesh>().color = Color.green;
 				flag = true;
 			}
-		} 
+		} else {
+			flag = true;
+		}
 	}
 
 	public void UnButtonPush() {

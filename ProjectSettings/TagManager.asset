@@ -10,6 +10,7 @@ TagManager:
   - Dial
   - TextPanel
   - Box
+  - Panel
   layers:
   - Default
   - TransparentFX

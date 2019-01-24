@@ -311,6 +311,7 @@
      <Compile Include="Assets\Scripts\MoveWay.cs" />
      <Compile Include="Assets\Scripts\ObjectContorller.cs" />
      <Compile Include="Assets\Scripts\OriginalOpenDoorScript.cs" />
+     <Compile Include="Assets\Scripts\RestartScript.cs" />
      <Compile Include="Assets\Scripts\RotTextScript.cs" />
      <Compile Include="Assets\Scripts\scene1.cs" />
      <Compile Include="Assets\Scripts\SearchObjectScripts.cs" />

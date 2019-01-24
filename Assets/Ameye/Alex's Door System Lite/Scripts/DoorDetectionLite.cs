@@ -50,11 +50,11 @@ public class DoorDetectionLite : MonoBehaviour
 		target = GameObject.Find("Dial");
 		dial = target.GetComponent<DialScript>();
 
-        targetPanel = GameObject.Find("TextPanel");
-        buttonPanel = targetPanel.GetComponent<ButtonPanelScript>();
-
         targetSearch = GameObject.Find("Box");
         search = targetSearch.GetComponent<SearchObjectScripts>();
+
+        targetPanel = GameObject.Find("Panel");
+        buttonPanel = targetPanel.GetComponent<ButtonPanelScript>();
     }
 
     void Update()
@@ -67,7 +67,7 @@ public class DoorDetectionLite : MonoBehaviour
 		d_flag = dial.DialFlag ();
         b_flag = buttonPanel.PanelFlag();
         s_flag = search.InnerFlag();
-
+        
         // Cast ray from center of the screen towards where the player is looking
         if (Physics.Raycast(ray, out hit, Reach))
         {

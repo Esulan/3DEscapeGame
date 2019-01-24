@@ -23575,7 +23575,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: demonstration stage clear!
+  m_Text: stage clear!
 --- !u!222 &1629721804
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23688,6 +23688,7 @@ GameObject:
   - component: {fileID: 1746204858}
   - component: {fileID: 1746204857}
   - component: {fileID: 1746204856}
+  - component: {fileID: 1746204860}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -23762,6 +23763,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746204860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746204855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4080d8b7a60754aab6297d1db563a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748957849
 GameObject:
   m_ObjectHideFlags: 0
